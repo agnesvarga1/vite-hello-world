@@ -1,9 +1,11 @@
 <script>
 import AppTitle from "../src/components/appTitle.vue";
+import AppHero from "../src/components/AppHero.vue";
 export default {
   name: "App",
   components: {
     AppTitle,
+    AppHero,
   },
 };
 </script>
@@ -11,6 +13,7 @@ export default {
 <template>
   <h1>Haliho</h1>
   <AppTitle />
+  <AppHero />
 </template>
 
 <style>
